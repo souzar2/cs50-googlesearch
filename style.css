@@ -1,0 +1,188 @@
+
+.topbar {
+    display: flex;
+    margin-right: 30px;
+    background-color: white;
+    height: 80px;
+    width: 99vw;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imggoogle {
+    margin: 0;
+    display: flex;
+    background-color: white;
+    height: 84px;
+    width: 99vw;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.searchpage{
+    margin: 0;
+    display: flex;
+    background-color: white;
+    height: 473px;
+    width: 99vw;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.toplinks {
+    display: inline;
+    margin: 16px;
+    color: rgba(37, 31, 31, 0.836);
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    align-items: center;
+}
+
+.toplinks:hover {
+    text-decoration: underline;
+  }
+
+.logoGoogle {
+    display: block;
+    position:static;
+    width: 270px;
+    height: 88px;
+}
+
+.searchspace {
+    margin-bottom: 31px;
+    margin-top: 28px;
+    display: block;
+    border-radius: 30px;
+    border-color: rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    text-align: left;
+    padding-left: 46px;
+    padding-right: 119px;
+    width: 419px;
+    height: 47px;
+    background-image: url(simblesearch.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-size: 15px;
+    background-position: 10px;
+}
+
+.buttoms {
+    height: 36px;
+    width: 584px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbutton {
+    align-items: center;
+    width: 142px;
+    height: 36px;
+    margin: 11px;
+    color: black;
+    text-align: center;
+    border-style: none;
+    border-radius: 5%;
+}
+
+.advancedTopBar {
+    display: inline;
+    background-color: white;
+    height: 137px;
+    width: 99vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.findItemsWith {
+    display: inline;
+    background-color: white;
+    position: absolute;
+    width: 1290px;
+    height: 73px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.advancedLogoGoogle {
+    display: inline;
+    position:static;
+    width: 73px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 920px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+h3 {
+    display: block;
+    color: red;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    margin-left: 46px;
+}
+
+h4 {
+    display: block;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    margin-left: 46px;
+    margin-top: 46px;
+}
+
+.groupItems {
+    width: 803px;
+    height: 238px;
+}
+
+.itensForm {
+    display: inline-block;
+    width: 754px;
+    height: 41px;
+    position: relative;
+    margin-left: 47px;
+}
+
+.advancedForm {
+    margin-left: 227px;
+    width: 573px;
+    height: 28px;
+    z-index: 1;
+    position: absolute;
+    display: inline-block;
+}
+
+h5 {
+    position:absolute;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    margin-left: 70px;
+    top: -17%;
+    transform: translate(-50%, -50%);
+}
+
+.advancedButton {
+    align-items: center;
+    width: 127px;
+    height: 29px;
+    margin: 11px;
+    text-align: center;
+    border-style: none;
+    border-radius: 5%;
+    display: flex;
+    background-color: #4C8FFC;
+    margin-left: 728px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: smaller;
+    justify-content: center;
+}
